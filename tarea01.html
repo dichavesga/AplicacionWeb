@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Etiquetas HTML - Diana Vanessa Chaves Garcia</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <h1>Etiquetas HTML</h1>
+
+    <hgroup>
+        <h2>Diana Vanessa Chaves Garcia</h2>
+        <h3>Demostración de etiquetas HTML</h3>
+    </hgroup>
+
+    <img src="imagenes/avatar.png" alt="Avatar de Diana" width="200">
+
+    <address>
+        Contacto: dichavesga@est.utn.ac.cr
+    </address>
+
+    <div>
+        <p>Este es un párrafo.</p>
+        <br>
+        <p>Segundo párrafo.</p>
+    </div>
+
+    <h2>Listas</h2>
+
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+    </ul>
+
+    <ol>
+        <li>Paso 1</li>
+        <li>Paso 2</li>
+    </ol>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Lenguaje de marcado</dd>
+    </dl>
+
+    <figure>
+        <img src="imagenes/paisaje.jpg" width="150">
+        <figcaption>Paisaje de ejemplo</figcaption>
+    </figure>
+
+    <details>
+        <summary>Ver más</summary>
+        <p>Información adicional.</p>
+    </details>
+
+    <dialog open>
+        Este es un diálogo.
+    </dialog>
+
+    <h2>Texto</h2>
+
+    <p><b>Negrita</b></p>
+    <p><strong>Importante</strong></p>
+    <p><i>Cursiva</i></p>
+    <p><em>Énfasis</em></p>
+    <p><mark>Texto resaltado</mark></p>
+    <p><small>Texto pequeño</small></p>
+    <p><del>Texto eliminado</del></p>
+    <p><ins>Texto insertado</ins></p>
+
+    <p>H<sub>2</sub>O</p>
+    <p>x<sup>2</sup></p>
+
+    <p><abbr title="HyperText Markup Language">HTML</abbr></p>
+
+    <p><dfn>HTML</dfn> es un lenguaje web.</p>
+
+    <code>
+        console.log("Hola");
+    </code>
+
+    <p>Presione <kbd>Ctrl + S</kbd></p>
+
+    <blockquote>
+        Esta es una cita en bloque.
+    </blockquote>
+
+    <q>Cita corta</q>
+
+    <p><cite>Libro de HTML</cite></p>
+
+    <pre>
+Texto
+    preformateado
+    </pre>
+
+    <time>08:00</time>
+
+    <data value="001">Producto 1</data>
+
+    <span style="color:red;">Texto con span</span>
+
+    <h2>Enlaces</h2>
+
+    <a href="https://www.google.com">Ir a Google</a>
+
+    <img src="imagenes/map.jpg" usemap="#mapa" width="50%">
+
+    <map name="mapa">
+        <area shape="rect" coords="0,0,100,100"
+        href="https://www.youtube.com">
+    </map>
+
+    <h2>Imágenes</h2>
+
+    <picture>
+        <source media="(min-width:650px)" srcset="imagenes/grande.jpg">
+        <img src="imagenes/pequena.jpg" alt="Imagen adaptable" width="50%">
+    </picture>
+
+    <canvas width="200" height="100"
+    style="border:1px solid black;">
+    </canvas>
+
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40"
+        stroke="black" stroke-width="2"
+        fill="pink"/>
+    </svg>
+
+    <h2>Multimedia</h2>
+
+    <audio controls>
+         <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+    </audio>
+
+    <video width="320" height="240" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+
+        <track src="subtitulos.vtt"
+        kind="subtitles"
+        srclang="es"
+        label="Español">
+    </video>
+
+    <h2>Video de YouTube</h2>
+
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/jYKGw9WJvPg"
+    title="YouTube video player"
+    allowfullscreen>
+    </iframe>
+
+</body>
+
+</html>
